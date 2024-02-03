@@ -1,0 +1,281 @@
+.backgroundContainer {
+  display: flex;
+  /* flex-direction: column; */
+  width: 100%;
+  height: 100vh;
+  border-radius: 20px;
+}
+
+.tabContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  border-radius: 20px;
+  background-color: #fff;
+  margin-bottom: 40px;
+}
+
+.apps-icon {
+  font-size: 3rem !important;
+  color: white;
+}
+
+.tabTopContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.welcomeContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px !important;
+  text-align: center;
+}
+.welcome {
+  font-family: Poppins !important ;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: #0089ed !important;
+}
+.lorem {
+  font-family: Poppins !important ;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+}
+.dashboardContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 172px;
+  color: #1693ee !important;
+  padding-top: 30px !important;
+}
+.break {
+  border: 1px solid #1693ee;
+}
+.tabBottomContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px !important;
+}
+.tab-button {
+  border-radius: 10px !important;
+  padding: 10px !important;
+  background-color: #1693ee !important;
+  color: white !important;
+  margin-bottom: 20px !important;
+  width: 180px !important;
+}
+.loremContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px !important;
+  border-radius: 40px !important;
+  width: 191px;
+  height: 203px;
+  background: linear-gradient(#1693ee, #8accff);
+}
+.loremText {
+  padding-left: 4px;
+  font-family: Poppins !important;
+  font-size: 25px !important;
+  font-weight: 600 !important;
+  line-height: 30px !important;
+  letter-spacing: 2px !important;
+  text-align: left !important;
+  color: white;
+  padding-right: 16px;
+}
+
+.overViewContainer {
+  left: 243px !important;
+  border-radius: 20px !important;
+  background-color: #f9fafc !important;
+}
+
+.overViewHeaders {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0px;
+}
+.overviewHeading {
+  font-family: Poppins !important;
+  font-size: 30px !important;
+  font-weight: 600 !important;
+  line-height: 45px !important;
+  text-align: left !important;
+  width: 145px !important;
+  height: 45px !important;
+  top: 23px !important;
+  left: 273px !important;
+}
+.infoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.searchbox {
+  display: flex;
+  align-items: center;
+}
+.serachInput > input {
+  padding: 4px !important;
+  font-size: 14px !important;
+}
+
+.MuiInputBase-root {
+  background-color: #d9edfc;
+}
+
+.MuiFormLabel-root {
+  color: #1693ee !important;
+}
+.serachBtn {
+  width: 50px !important;
+  background-color: #d9edfc !important;
+
+  color: #1693ee !important;
+}
+
+.notificationIcon {
+  color: #1693ee !important;
+}
+.cardsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.eachCard {
+  display: flex;
+  flex-direction: row;
+  width: 260px !important;
+  height: 120px !important;
+  border-radius: 30px !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+  margin: 4px;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0px 10px;
+}
+
+.card-icon {
+  font-size: 2rem;
+  color: #1693ee !important;
+}
+
+.iconContainer {
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 50% !important;
+  background-color: #d9edfc !important;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 6px;
+}
+.cardHeading {
+  font-family: Poppins !important;
+  font-size: 35px !important;
+  font-weight: 600 !important;
+  line-height: 53px !important;
+  text-align: left !important;
+}
+
+.navBar {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.adminContianer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5px;
+}
+.admin {
+  font-size: 14px !important;
+  color: #9e9e9e;
+}
+
+.menuCard {
+  width: 280px !important;
+  height: 240px !important;
+  border-radius: 30px !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+.profilePopup {
+  display: "flex";
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.danielle {
+  font-family: Poppins !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  text-align: center;
+}
+
+.tableContainer {
+  width: 700px;
+  padding: 10px;
+  margin: 10px;
+  border: 10px;
+}
+
+.tableRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tableHeaders {
+  font-family: Poppins !important;
+  font-size: 16px !important;
+  font-weight: 800 !important;
+  line-height: 24px !important;
+  letter-spacing: 0px;
+  text-align: left !important;
+}
+.invoice {
+  font-family: Poppins !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  letter-spacing: 0px;
+  text-align: left !important;
+  color: #0089ed !important;
+}
+.tab-customer {
+  font-family: Poppins !important;
+  font-size: 16px !important;
+  font-weight: 200 !important;
+  line-height: 24px !important;
+  letter-spacing: 0px !important;
+  text-align: left !important;
+}

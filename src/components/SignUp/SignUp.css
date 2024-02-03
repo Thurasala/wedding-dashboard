@@ -1,0 +1,164 @@
+.SignUp {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.signin-header {
+  position: absolute;
+  margin-left: 12px !important;
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  line-height: normal;
+  width: 49px !important;
+  height: 30px;
+  top: 22px;
+  left: 42px;
+}
+.card-signin {
+  /* width: 440px;
+  height: 476px; */
+
+  width: 300px;
+  height: 376px;
+  margin-left: 80px;
+  margin-right: 20px;
+  border-top: 10px;
+
+  border-radius: 40px !important;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.1) !important;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.forgt-pwd {
+  color: blue;
+  text-align: end;
+  font-size: 12px !important;
+  margin-top: 6px;
+}
+
+.register-text {
+  color: blue;
+}
+
+.no-account-text {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-top: 20px;
+}
+.signup-lorem {
+  color: #0089ed;
+  font-family: Poppins;
+  font-size: 21px !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  line-height: normal;
+}
+
+.header-title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 55px !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.SignIn .error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.otp-inputs {
+  background: rgba(0, 137, 237, 0.1) !important;
+  border-radius: 15px !important;
+}
+.signin-image {
+  width: 100%;
+  height: 600px;
+}
+
+.otp-input{
+  width: 3rem;
+  padding: 8px !important;
+  height: 2rem;
+  margin: 0.5rem !important;
+}
+/* Small Devices, Tablets */
+@media (max-width: 767px) {
+  .SignUp {
+    flex-direction: column;
+    height: 100%;
+    margin-left: 10px;
+  }
+  .card-signin {
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom:20px;
+  }
+
+  .otp-input{
+    padding: 2px !important;
+    margin:  0px !important;
+  }
+  .signin-image {
+    width: 330px;
+    height: 450px;
+    padding-right: 20px;
+  }
+  .header-title {
+    font-size: 18px !important;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .signin-image {
+    width: 300px;
+    height: 470px;
+    padding-right: 20px;
+  }
+  .card-signin {
+    width: 290px;
+    height: 365px;
+    margin-left: 40px;
+    margin-right: 10px;
+    border-top: 10px;
+  }
+
+  .header-title {
+    font-size: 20px !important;
+  }
+}
+
+/* Large Devices, Wide Screens */
+/* @media only screen and (min-width: 1024px) {
+  .card-signin {
+    width: 300px;
+    height: 376px;
+    margin-left: 80px;
+    margin-right: 20px;
+    border-top: 10px;
+  }
+  .signin-image {
+    width: 430px;
+    height: 590px;
+    margin-right: 20px;
+  }
+  
+} */
